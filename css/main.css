@@ -280,3 +280,36 @@ body
   margin: 0.5rem 0 0;
 }
 
+
+.phoneimage
+{
+  background-color: var(--gold);
+  border-radius: 15px;
+  width: 6vw;
+  height: 6vw;
+  padding: 1vw;
+  margin-top: 2vw;
+  box-shadow: 
+  0 0 7px rgb(237, 255, 79),
+  0 0 42px rgb(229, 255, 0);
+}
+
+.about_text
+{
+  font-style: 'Arial';
+  color: var(--gold);
+  text-shadow: 2px 2px var(--gold2);
+  font-size: 2vw;
+}
+
+
+.connect
+{  
+  border-radius: 20px;
+  padding: 2vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  box-shadow: 
+  0 0 7px rgb(237, 255, 79),
+  0 0 42px rgb(229, 255, 0);
+}
