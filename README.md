@@ -1,2 +1,2 @@
 # PersonalWebsite
-A website I made for my portfolio 
+A website I made for my portfolio.
