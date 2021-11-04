@@ -21,7 +21,7 @@ var findPoint = function(x1, y1, x2, y2, x)
   ret = m*(x - x2) + y2;
 
   if(x2 < 0)
-  ret = -ret;
+  ret = ret;
 
   return ret;
 }
@@ -139,7 +139,7 @@ cloud.prototype.ray = function()
       if(this.x - this.w / 1.99 >= 0)
         vertex(2000, findPoint(0,0,this.x - this.w / 1.99,this.y + this.h / 3.9, 2000));
       else
-        vertex(-200,2000);
+        vertex(-2000,2000);
       endShape();
       break;
     case 2:
@@ -150,7 +150,7 @@ cloud.prototype.ray = function()
       if(this.x - this.w / 2.2 >= 0)
         vertex(2000, findPoint(0,0,this.x - this.w / 2.2,this.y + this.h / 3.9, 2000));
       else
-        vertex(-200,2000);
+        vertex(-2000,2000);
       endShape();
       break;
 
@@ -162,7 +162,7 @@ cloud.prototype.ray = function()
       if(this.x - this.w / 2.1 >= 0)
         vertex(2000, findPoint(0,0,this.x - this.w / 2.1,this.y + this.h / 3.9, 2000));
       else
-        vertex(-200,2000);
+        vertex(-2000,2000);
       endShape();
     break;
 
@@ -175,7 +175,7 @@ cloud.prototype.ray = function()
       if(this.x - this.w / 2.06 >= 0)
         vertex(2000, findPoint(0,0,this.x - this.w / 2.06,this.y - this.h / 7, 2000));
       else
-        vertex(-200,2000);
+        vertex(-2000,2000);
       endShape();
       break;
       

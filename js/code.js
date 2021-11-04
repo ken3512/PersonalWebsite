@@ -3,15 +3,9 @@ function toAbout()
     window.location.href = "about.html";
 }
 
-
 function toProjects()
 {
-    window.location.href = "project.html";
-}
-
-function toConnect()
-{
-    window.location.href = "connect.html";
+    window.location.href = "index.html";
 }
 
 function toTimeline()
