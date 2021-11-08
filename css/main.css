@@ -3,7 +3,7 @@ body
     background-color: rgb(255, 255, 255);
     --gold: rgb(253, 255, 50);
     --gold2: rgb(98, 84, 2);
-    font-family: 'Cooper Black';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     overflow-x: hidden;
     text-align: center;
@@ -12,8 +12,6 @@ body
 h5
 {
   text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
   font-size: min(3vw, 20px);
   padding-left: min(2vw, 10px);
   padding-right: min(2vw, 10px);
@@ -73,7 +71,6 @@ h5
     margin: 1rem;
     background-color: rgb(48, 127, 229);
     color: var(--gold);
-    font-family: 'Cooper Black';
 
     margin: 3.5vw;
     text-shadow: 1px 1px var(--gold2);
@@ -132,7 +129,6 @@ h5
     font-size: min(2vw, 20px);
     padding: 0.2em;
     width: 60%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 25px;
     margin-left: 20.5%;
     padding: 3%;
@@ -145,7 +141,6 @@ h5
     background-color: rgb(48, 127, 229);
     color: var(--gold);
     text-shadow: 0.1vw 0.1vw var(--gold2);
-    font-family: 'Cooper Black';
     margin: 3.5vw;
     width: 15vw;
     height: 60px;
@@ -177,7 +172,6 @@ h5
 }
 .timeline_main_title{
   text-align: center;
-  font-family: 'Playfair Display', serif;
   color: var(--gold);
   text-shadow: 0.1vw 0.1vw var(--gold2);
 }
@@ -218,7 +212,6 @@ h5
   border-radius: 10px;
   border-image-slice: 1;
   position: relative;
-  font-family: 'Raleway', sans-serif;
   text-align: left;
   margin: 1rem 3rem 1rem 1rem;
   background-color: rgb(48, 127, 229);
