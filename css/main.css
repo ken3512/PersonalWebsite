@@ -116,7 +116,8 @@ h5
 
 .pfp
 {   
-    transform: translate(0, 50%);
+    position: absolute;
+    transform: translate(-50%, -50%);
     width: min(20vw, 200px);
     height: min(20vw, 200px);
     border-radius: 100px;
@@ -355,6 +356,7 @@ h5
   margin-right: min(15vw, 500px);
   
   box-shadow: 
+  0 0 12px rgb(255, 255, 255) inset, 
   0 0 7px rgb(237, 255, 79),
   0 0 42px rgb(229, 255, 0);
   border: 2px solid rgb(255, 204, 95);
@@ -369,12 +371,21 @@ h5
   border-radius: 10px;
   margin-left: min(24vw, 500px);
   margin-right: min(24vw, 500px);
-  box-shadow: 
+  box-shadow:
+  0 0 12px rgb(255, 255, 255) inset, 
   0 0 7px rgb(237, 255, 79),
   0 0 30px rgb(229, 255, 0);
+  
   padding: 0.3vw;
   border: 1px solid var(--gold);
 
+}
+
+.project_title
+{
+  color: var(--gold);
+  text-shadow: 2px 2px var(--gold2);
+  font-size: min(10vw, 50px);
 }
 
 .links
